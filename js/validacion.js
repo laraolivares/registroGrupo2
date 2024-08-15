@@ -39,6 +39,6 @@ document.getElementById("regBtn").onclick = function(){
     }
 
     else{
-        return showAlertSuccess();
+        return showAlertSuccess("");
     }
 }
