@@ -12,7 +12,7 @@ document.getElementById("regBtn").onclick = function(){
     var email = document.getElementById("email").value;
     var password1 = document.getElementById("password1").value;
     var password2 = document.getElementById("password2").value;
-    var checkbox = document.getElementById("terminos").value;
+    var checkbox = document.getElementById("terminos");
 
     if(nombre == ""){
         return showAlertError("");
