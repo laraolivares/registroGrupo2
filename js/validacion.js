@@ -34,11 +34,11 @@ document.getElementById("regBtn").onclick = function(){
         return showAlertError();
     }
 
-    else if (!checkbox){
+    else if (!checkbox.checked){
         return showAlertError();
     }
 
     else{
-        return showAlertSuccess("");
+        return showAlertSuccess();
     }
 }
