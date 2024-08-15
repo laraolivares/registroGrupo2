@@ -15,7 +15,7 @@ document.getElementById("regBtn").onclick = function(){
     var checkbox = document.getElementById("terminos");
 
     if(nombre == ""){
-        return showAlertError("");
+        return showAlertError();
     }
         
     else if(apellido == ""){
@@ -39,6 +39,6 @@ document.getElementById("regBtn").onclick = function(){
     }
 
     else{
-        return showAlertSuccess('');
+        return showAlertSuccess();
     }
 }
